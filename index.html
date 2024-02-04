@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Food Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Karma", sans-serif;
+    font-weight: normal;
+}
+.ui-bar-block .ui-bar-item {
+    padding:20px
+}
+</style>
+</head>
+<body>
+
+<nav class="ui-sidebar ui-bar-block ui-card ui-top ui-xlarge ui-animate-left" style="display:none;z-index:2;width:20%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="uiclose()" class="ui-bar-item ui-button">Close Menu <span class="ui-times">&times;</span></a>
+  <a href="#food" onclick="uiclose()" class="ui-bar-item ui-button">Food</a>
+  <a href="#about" onclick="uiclose()" class="ui-bar-item ui-button">About</a>
+</nav>
+
+<div class="ui-top">
+  <div class="ui-white ui-xlarge" style="max-width:1200px;margin:auto;">
+    <div class="ui-button ui-padding-16 ui-left" onclick="uiopen()">&#9776;</div>
+    <div class="ui-right ui-padding-16" >Mail</div>
+    <div class="ui-center ui-padding-16">My Food</div>
+  </div>
+</div>
+  
+<div class="ui-main ui-content ui-padding" style="max-width:1200px;margin-top:100px">
+
+  <div class="ui-row-padding ui-padding-16 ui-center" id="food">
+    <div class="ui-quarter">
+      <img src="sandwich.jpg" alt="Sandwich" style="width:100%">
+      <h3>The Perfect Sandwich, A  NYC Classic</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum</p>
+    </div>
+    <div class="ui-quarter">
+      <img src="steak.jpg" alt="Steak" style="width:100%">
+      <h3>Let Me Tell You About This Steak</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="ui-quarter">
+      <img src="cherries.jpg" alt="Cherries" style="width:100%">
+      <h3>Cherries,<br>interrupted</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="ui-quarter">
+      <img src="wine.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+  
+  <div class="ui-row-padding ui-padding-16 ui-center">
+    <div class="ui-quarter">
+      <img src="popsicle.jpg" alt="Popsicle" style="width:100%">
+      <h3>All I Need Is a Popsicle</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="ui-quarter">
+      <img src="salmon.jpg" alt="Salmon" style="width:100%">
+      <h3>Salmon For Your Skin</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="ui-quarter">
+      <img src="sandwich.jpg" alt="Sandwich" style="width:100%">
+      <h3>The Perfect Sandwich</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="ui-quarter">
+      <img src="croissant.jpg" alt="Croissant" style="width:100%">
+      <h3>Le French</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+
+  <div class="ui-center ui-padding-32">
+    <div class="ui-bar">
+      <a href="#" class="ui-bar-item ui-button ui-hover-black">&laquo;</a>
+      <a href="#" class="ui-bar-item ui-black ui-button">1</a>
+      <a href="#" class="ui-bar-item ui-button ui-hover-black">2</a>
+      <a href="#" class="ui-bar-item ui-button ui-hover-black">3</a>
+      <a href="#" class="ui-bar-item ui-button ui-hover-black">4</a>
+      <a href="#" class="ui-bar-item ui-button ui-hover-black">&raquo;</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <div class="ui-container ui-padding-32 ui-center">  
+    <h3>About Me, The Food Man</h3><br>
+    <img src="chef.jpg" alt="Me" class="ui-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="ui-padding-32">
+      <h4><b>I am Who I Am!</b></h4>
+      <h6><i>With Passion For Real, Good Food</i></h6>
+      <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <footer class="ui-row-padding ui-padding-32">
+    <div class="ui-third">
+      <h3>FOOTER</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Powered by <a href="https://www.uischools.com/uicss/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="ui-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="ui-ul ui-hoverable">
+        <li class="ui-padding-16">
+          <img src="workshop.jpg" class="ui-left ui-margin-right" style="width:50px;margin-left:-15px">
+          <span class="ui-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="ui-padding-16">
+          <img src="gondol.jpg" class="ui-left ui-margin-right" style="width:50px;margin-left:-15px">
+          <span class="ui-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="ui-third ui-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="ui-tag ui-black ui-margin-bottom">Travel</span> <span class="ui-tag ui-dark-grey ui-small ui-margin-bottom">New York</span> <span class="ui-tag ui-dark-grey ui-small ui-margin-bottom">Dinner</span>
+        <span class="ui-tag ui-dark-grey ui-small ui-margin-bottom">Salmon</span> <span class="ui-tag ui-dark-grey ui-small ui-margin-bottom">France</span> <span class="ui-tag ui-dark-grey ui-small ui-margin-bottom">Drinks</span>
+        <span class="ui-tag ui-dark-grey ui-small ui-margin-bottom">Ideas</span> <span class="ui-tag ui-dark-grey ui-small ui-margin-bottom">Flavors</span> <span class="ui-tag ui-dark-grey ui-small ui-margin-bottom">Cuisine</span>
+        <span class="ui-tag ui-dark-grey ui-small ui-margin-bottom">Chicken</span> <span class="ui-tag ui-dark-grey ui-small ui-margin-bottom">Dressing</span> <span class="ui-tag ui-dark-grey ui-small ui-margin-bottom">Fried</span>
+        <span class="ui-tag ui-dark-grey ui-small ui-margin-bottom">Fish</span> <span class="ui-tag ui-dark-grey ui-small ui-margin-bottom">Duck</span>
+      </p>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+function uiopen() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function uiclose() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
